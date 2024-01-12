@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#maindiv{
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 360px 0 360px;
+}
+
+@media (max-width:610px){
+    h2{
+        margin-top: 5%;
+    }
+    #maindiv{
+        margin: 0 30px 0 30px;
+    }
+    #sign{
+        margin-right: 15%;
+    }
+    #dropdown{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    #inner{
+        width: 85px;
+    }
+    .from{
+        margin-left: 0%;
+    }
+    .to{
+        margin-right: 5%;
+    }
+}
+
+@media ( min-width:610px)  and (max-width:1030px){
+    #maindiv{
+        margin: 0 60px 0 60px;
+    }
+    #sign{
+        margin-right: 15%;
+    }
+    #dropdown{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #inner{
+        width: 85px;
+    }
+    .from{
+        margin-left: 0%;
+    }
+    .to{
+        margin-right: 5%;
+    }
+
+}
+
+
